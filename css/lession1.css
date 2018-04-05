@@ -1,0 +1,36 @@
+#title {
+    text-align: center;
+}
+
+#content {
+    background-color: aquamarine;
+    height: 500px;
+    padding: 15px 10px;
+}
+
+#content_left{
+    width: 672px;
+    background-color: cornflowerblue;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#content_right{
+    width: 682px;
+    background-color: darkgray;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.label_song {
+    color: chartreuse;
+}
+
+.lyric_song {
+    color: chocolate;
+    font-style: italic;
+}
+

@@ -1,0 +1,36 @@
+div[class^="layout"] {
+    height: 200px;
+    width: 600px;
+    position: relative;
+}
+
+div[class="layout1"] {
+    background-color: firebrick;
+    width: 800px;
+    color: yellow;
+}
+
+.layout2 {
+    background-color: darkviolet;
+    width: 900px;
+}
+
+.layout3 {
+    background-color: darkturquoise;
+}
+
+.layout1 div div{
+    color: red;
+}
+
+.container{
+    border:1px solid black;
+    padding:10px;
+    overflow: auto;
+}
+.content{
+    background-color:red;
+    width:300px;
+    height:200px;
+    margin: auto;
+}
